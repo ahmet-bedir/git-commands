@@ -164,8 +164,11 @@ git checkout <commit id> -- .
 
 
 > `git branch`  :  Yerelimizde kaç dal (branch) olduğunu ve hangi dalda bulunduğumuzu gösterir.
+> 
 > `git branch --all`  :  Yerelimizde ve uzak depodaki tüm dalları gösterir.
+> 
 > `git branch -r`  :  Uzak depodaki dalları gösterir.
+> 
 > `git branch <branch_name>`  :  Yeni dal (branch) oluşturmak için kullanılır.
 > 
 > `git branch -m <branch_name> <new_branch_name>`  :  Dal adını değiştirir, ancak yeni isimde bir dal varsa hata verir.
@@ -176,8 +179,12 @@ git checkout <commit id> -- .
 
 
 
+
+
 > `git switch <branch_name>`  :  Girilen branch'a  geçiş yapar.
+> 
 > `git checkout <branch_name>`  :  Uzak depodan yerel depoya indirilen branch'a geçiş yapar.
+
 
 > `git merge <branch_name>`  :  Master branch'ındayken ismi verilen diğer branch'ı master branch'ıyla birleştirmek için kullanılır.
 
@@ -290,7 +297,7 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-<p><font size="2">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<font/><p/>
+<p style="font-size: 13px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
 
 
 
