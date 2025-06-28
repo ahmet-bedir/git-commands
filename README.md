@@ -2,7 +2,7 @@
 
 ---
 
-<img src="./images/git-banner.png" align="center" width="400" height="150" />
+<img src="./images/git-banner.png" align="center" width="400" height="160" />
 
 ---
 
