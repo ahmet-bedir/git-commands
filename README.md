@@ -33,7 +33,8 @@
 git config --global user.name "user_name"
 git config --global user.email "user_email"
 ```
-[^Not : Depoya özgü kullanıcıadı va email tanımlama işlemi için --global anahtarı yerine --local anahtarı veya hiç yazılmaması gerekir.]: 
+<p><font size="2">Not : Depoya özgü kullanıcıadı va email tanımlama işlemi için --global anahtarı yerine --local anahtarı veya hiç yazılmaması gerekir.</font></p>
+
 
 - Tanımlamış olduğumuz kullanıcı adı ve email adresini görüntülemek için:
 
@@ -124,6 +125,8 @@ git commit -m "commit_mesajı"
 > `git commit -a`  :  Git add yapmadan direk commit etme işlemi için kullanabilirsiniz.
 > `git commit --amend -m "yeni commit mesajı"`  :  En son yapılan commit mesajını değiştirmek için kullanılır.
 
+
+
 > `git log`  :  Yapılan commitleri gösterir.
 > `git log --oneline`  :  Yapılan commitleri tek satır şeklinde gösterir.
 
@@ -165,7 +168,7 @@ git checkout <commit id> -- .
 > `git branch -r`  :  Uzak depodaki dalları gösterir.
 > `git branch <branch_name>`  :  Yeni dal (branch) oluşturmak için kullanılır.
 > 
-> `git branch -m <branch_name> <ne_branch_name>`  :  Dal adını değiştirir, ancak yeni isimde bir dal varsa hata verir.
+> `git branch -m <branch_name> <new_branch_name>`  :  Dal adını değiştirir, ancak yeni isimde bir dal varsa hata verir.
 > 
 > `git branch -M <branch_name> <new_branch_name>`  :  Dal adını değiştirir, yeni isimde bir dal varsa üzerine yazar (force).
 > 
@@ -224,8 +227,8 @@ Remote uzun linkleri kısaltmamıza ve onları bir isim ile bağdaştırmamızı
      - *Public* seçersen herkes görebilir.
      - *Private* seçersen sadece sen ve davet ettiklerin görebilir.
    - “Initialize this repository with:”
-     - *README file* seçersen(isteğe bağlı), başlangıçta bir README dosyası ekler.
-     - *.gitignore* ve *license* eklemek istersen(isteğe bağlı) buradan seçebilirsin.
+     - *README file* seçersen (isteğe bağlı), başlangıçta bir README dosyası ekler.
+     - *.gitignore* ve *license* eklemek istersen (isteğe bağlı) buradan seçebilirsin.
 4. Create repository butonuna tıkla.
 
 
@@ -287,7 +290,7 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-[^Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.]: 
+<p><font size="2">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<font/><p/>
 
 
 
@@ -298,34 +301,25 @@ veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, ş
 ### Komut Satırında SSH ile Kimlik Doğrulama
 
 1.SSH Anahtarınızı Oluşturma
-
 `ssh-keygen -t ed25519 -C "email@adresiniz.com"`
-
 Varsayılan dosya yolunu (Enter’a basarak) ve bir şifre girip girmemeyi seçebilirsiniz.
 
 2.Genel Anahtarı Kopyalayın
-
 `cat ~/.ssh/id_ed25519.pub`
-
 Çıkan anahtarı kopyalayın.
 
 3.Genel Anahtarı GitHub’a Ekleyin
-
 GitHub’da sağ üstte profil fotoğrafınıza tıklayın → Settings → SSH and GPG keys → New SSH key.
 Title kısmına bir isim verin, kopyaladığınız anahtarı “Key” alanına yapıştırın ve kaydedin.
 
 4.Bağlantıyı Test Edin
-
 `ssh -T git@github.com`
-
 İlk seferde “Are you sure you want to continue connecting (yes/no/[fingerprint])?” sorusuna yes yazın. “Hi username! You've successfully authenticated...” mesajı görmelisiniz.
 
 5.Depoyu SSH ile Kullanın : Depo bağlantı adresiniz şu şekilde olmalı
-
 `git@github.com:<github_username>/<repo_name>.git`
 
 6.Var olan bir depoda HTTPS’i SSH’ye çevirmek için :
-
 `git remote set-url <remote_name> git@github.com:<github_username>/<repo_name>.git`
 
 
