@@ -2,7 +2,7 @@
 
 ---
 
-<img src="./images/git-banner.png" width="400" height="150" />
+<img src="./images/git-banner.png" align="center" width="400" height="150" />
 
 ---
 
@@ -280,7 +280,7 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-[^Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.]: 
+[^Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.]: 
 
 
 
@@ -314,7 +314,11 @@ Title kısmına bir isim verin, kopyaladığınız anahtarı “Key” alanına 
 
 
 
+---
+
 > `git remote -v`  :  Yerele indirdiğiniz (klonladığınız) bir github deposunun hangi hesaptan veya hangi url üzerinden klonlandığını ve hangi yöntem ile bağlantı kulduğunu öğrenmek için kullanılır.
+
+---
 
 
 
