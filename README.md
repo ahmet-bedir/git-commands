@@ -158,8 +158,11 @@ git checkout <commit id> -- .
 ---
 
 > `git diff`  :  Staging alanına eklenmeden önce tüm dosyalarda yapılan değişiklikleri gösterir.
+> 
 > `git diff <file_name>`  :  Staging alanına eklenmeden önce ismi verilen tek bir dosyada yapılan değişiklikleri gösterir.
+> 
 > `git diff --staged`  :  Git deposu ile staging alanındaki değişiklikleri gösterir.
+
 
 
 
@@ -297,7 +300,7 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-<p style="font-size: 13px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
+<p style="font-size: 10px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
 
 
 
