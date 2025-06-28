@@ -298,25 +298,34 @@ veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, ş
 ### Komut Satırında SSH ile Kimlik Doğrulama
 
 1.SSH Anahtarınızı Oluşturma
+
 `ssh-keygen -t ed25519 -C "email@adresiniz.com"`
+
 Varsayılan dosya yolunu (Enter’a basarak) ve bir şifre girip girmemeyi seçebilirsiniz.
 
 2.Genel Anahtarı Kopyalayın
+
 `cat ~/.ssh/id_ed25519.pub`
+
 Çıkan anahtarı kopyalayın.
 
 3.Genel Anahtarı GitHub’a Ekleyin
+
 GitHub’da sağ üstte profil fotoğrafınıza tıklayın → Settings → SSH and GPG keys → New SSH key.
 Title kısmına bir isim verin, kopyaladığınız anahtarı “Key” alanına yapıştırın ve kaydedin.
 
 4.Bağlantıyı Test Edin
+
 `ssh -T git@github.com`
+
 İlk seferde “Are you sure you want to continue connecting (yes/no/[fingerprint])?” sorusuna yes yazın. “Hi username! You've successfully authenticated...” mesajı görmelisiniz.
 
 5.Depoyu SSH ile Kullanın : Depo bağlantı adresiniz şu şekilde olmalı
+
 `git@github.com:<github_username>/<repo_name>.git`
 
-6.Var olan bir depoda HTTPS’i SSH’ye çevirmek için:
+6.Var olan bir depoda HTTPS’i SSH’ye çevirmek için :
+
 `git remote set-url <remote_name> git@github.com:<github_username>/<repo_name>.git`
 
 
