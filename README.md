@@ -170,6 +170,8 @@ git checkout <commit id> -- .
 
 
 
+
+
 > `git branch`  :  Yerelimizde kaç dal (branch) olduğunu ve hangi dalda bulunduğumuzu gösterir.
 >
 >`git branch --all`  :  Yerelimizde ve uzak depodaki tüm dalları gösterir.
@@ -187,6 +189,9 @@ git checkout <commit id> -- .
 > `git branch -M <branch_name> <new_branch_name>`  :  Dal adını değiştirir, yeni isimde bir dal varsa üzerine yazar (force).
 >
 > `git branch -D <branch_name>`  :  Lokalde ismi verilen bir dalı (branch) silmek için kullanılır.
+
+
+
 
 
 
