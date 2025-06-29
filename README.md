@@ -309,9 +309,7 @@ veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, ş
 
 ---
 
-
-
-### 	Komut Satırında SSH ile Kimlik Doğrulama
+### Komut Satırında SSH ile Kimlik Doğrulama
 
 1.SSH Anahtarınızı Oluşturma
 `ssh-keygen -t ed25519 -C "email@adresiniz.com"`
