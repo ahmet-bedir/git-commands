@@ -158,24 +158,22 @@ git checkout <commit id> -- .
 ---
 
 > `git diff`  :  Staging alanına eklenmeden önce tüm dosyalarda yapılan değişiklikleri gösterir.
-
+>
 >`git diff <file_name>`  :  Staging alanına eklenmeden önce ismi verilen tek bir dosyada yapılan değişiklikleri gösterir.
 > 
->`git diff <file_name>`  :  Staging alanına eklenmeden önce ismi verilen tek bir dosyada yapılan değişiklikleri gösterir.
-
 > `git diff --staged`  :  Git deposu ile staging alanındaki değişiklikleri gösterir.
 
 
 
 
 > `git branch`  :  Yerelimizde kaç dal (branch) olduğunu ve hangi dalda bulunduğumuzu gösterir.
-
+>
 >`git branch --all`  :  Yerelimizde ve uzak depodaki tüm dalları gösterir.
 > 
 >`git branch -r`  :  Uzak depodaki dalları gösterir.
 > 
 >`git branch --all`  :  Yerelimizde ve uzak depodaki tüm dalları gösterir.
-
+>
 > `git branch -r`  :  Uzak depodaki dalları gösterir.
 > 
 > `git branch <branch_name>`  :  Yeni dal (branch) oluşturmak için kullanılır.
@@ -189,7 +187,7 @@ git checkout <commit id> -- .
 
 
 > `git switch <branch_name>`  :  Girilen branch'a  geçiş yapar.
-
+>
 >`git checkout <branch_name>`  :  Uzak depodan yerel depoya indirilen branch'a geçiş yapar.
 
 
@@ -312,26 +310,26 @@ veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, ş
 
 ### Komut Satırında SSH ile Kimlik Doğrulama
 
-1.SSH Anahtarınızı Oluşturma
+1.SSH Anahtarınızı Oluşturma.
 `ssh-keygen -t ed25519 -C "email@adresiniz.com"`
 Varsayılan dosya yolunu (Enter’a basarak) ve bir şifre girip girmemeyi seçebilirsiniz.
 
-2.Genel Anahtarı Kopyalayın
+2.Genel Anahtarı Kopyalayın.
 `cat ~/.ssh/id_ed25519.pub`
 Çıkan anahtarı kopyalayın.
 
-3.Genel Anahtarı GitHub’a Ekleyin
+3.Genel Anahtarı GitHub’a Ekleyin.
 GitHub’da sağ üstte profil fotoğrafınıza tıklayın → Settings → SSH and GPG keys → New SSH key.
 Title kısmına bir isim verin, kopyaladığınız anahtarı “Key” alanına yapıştırın ve kaydedin.
 
-4.Bağlantıyı Test Edin
+4.Bağlantıyı Test Edin.
 `ssh -T git@github.com`
 İlk seferde “Are you sure you want to continue connecting (yes/no/[fingerprint])?” sorusuna yes yazın. “Hi username! You've successfully authenticated...” mesajı görmelisiniz.
 
-5.Depoyu SSH ile Kullanın : Depo bağlantı adresiniz şu şekilde olmalı
+5.Depoyu SSH ile Kullanın : Depo bağlantı adresiniz şu şekilde olmalı.
 `git@github.com:<github_username>/<repo_name>.git`
 
-6.Var olan bir depoda HTTPS’i SSH’ye çevirmek için :
+6.Var olan bir depoda HTTPS’i SSH’ye çevirmek için:
 `git remote set-url <remote_name> git@github.com:<github_username>/<repo_name>.git`
 
 
