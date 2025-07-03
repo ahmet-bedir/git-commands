@@ -33,7 +33,7 @@
 git config --global user.name "user_name"
 git config --global user.email "user_email"
 ```
-<p><font size="2">Not : Depoya özgü kullanıcıadı va email tanımlama işlemi için --global anahtarı yerine --local anahtarı veya hiç yazılmaması gerekir.</font></p>
+<p style="font-size: 13px;">Not : Depoya özgü kullanıcıadı va email tanımlama işlemi için --global anahtarı yerine --local anahtarı veya hiç yazılmaması gerekir.<p/>
 
 
 - Tanımlamış olduğumuz kullanıcı adı ve email adresini görüntülemek için:
@@ -174,8 +174,6 @@ git checkout <commit id> -- .
 
 
 
-
-
 > `git branch`  :  Yerelimizde kaç dal (branch) olduğunu ve hangi dalda bulunduğumuzu gösterir.
 >
 >`git branch --all`  :  Yerelimizde ve uzak depodaki tüm dalları gösterir.
@@ -193,8 +191,6 @@ git checkout <commit id> -- .
 > `git branch -M <branch_name> <new_branch_name>`  :  Dal adını değiştirir, yeni isimde bir dal varsa üzerine yazar (force).
 >
 > `git branch -D <branch_name>`  :  Lokalde ismi verilen bir dalı (branch) silmek için kullanılır.
-
-
 
 
 
@@ -316,7 +312,8 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-<p style="font-size: 12px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
+<p style="font-size: 13px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
+
 
 
 ---
@@ -327,7 +324,7 @@ veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, ş
 `ssh-keygen -t ed25519 -C "email@adresiniz.com"`
 Varsayılan dosya yolunu (Enter’a basarak) ve bir şifre girip girmemeyi seçebilirsiniz.
 
-2.Terminale genel anahtarı kopyalamak için: 
+2.Genel anahtarı kopyalamak için: 
 `cat ~/.ssh/id_ed25519.pub`
 Çıkan anahtarı kopyalayın.
 
