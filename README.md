@@ -383,4 +383,3 @@ git clone git@github.com:<github_username>/<repo_name>.git
 <h3 align="center">Git Sistemi (Git System)<h3/>
 
 ![](./images/git-system.png)
-
