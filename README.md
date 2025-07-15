@@ -6,7 +6,7 @@
 
 ---
 
-<p style="font-size: 12px; text-align: right; font-weight: bold; font-style: italic;
+<p style="font-size:12px; text-align:right; font-weight:bold; font-style:italic;
 ">Güncelleme : 07/2025<p/>
 
 ##### Bu proje kapsamındaki türkçe kaynak `git-commands.pdf` dosyası aşağıdaki koşullarda kullanıma sunulmuştur:
@@ -31,7 +31,7 @@
 git config --global user.name "user_name"
 git config --global user.email "user_email"
 ```
-<p style="font-size: 13px;">Not : Depoya özgü kullanıcıadı ve email tanımlama işlemi için <code>--global</code> anahtarı yerine <code>--local</code> anahtarı veya hiç yazılmaması gerekir.<p/>
+<p style="font-size:13px;">Not : Depoya özgü kullanıcıadı ve email tanımlama işlemi için <code>--global</code> anahtarı yerine <code>--local</code> anahtarı veya hiç yazılmaması gerekir.<p/>
 
 - Tanımlamış olduğumuz kullanıcı adı ve email adresini görüntülemek için:
 
@@ -41,7 +41,7 @@ git config --global user.name
 git config --global user.email
 ```
 
-<p style="font-size: 13px;">Not : Tüm konfigurasyonlar için <code>git config --list</code> komutu kullanılır. Depoya özgü kullanıcıadı ve email görüntüleme işlemi için <code>--global</code> anahtarının yazılmaması gerekir.<p/>
+<p style="font-size:13px;">Not : Tüm konfigurasyonlar için <code>git config --list</code> komutu kullanılır. Depoya özgü kullanıcıadı ve email görüntüleme işlemi için <code>--global</code> anahtarının yazılmaması gerekir.<p/>
 
 
 - Git varsayılan editörünü nano ayarlamak için:
@@ -317,7 +317,7 @@ git remote set-url <remote_name> https://<github_username>:<pat>@github.com/<git
 ```
 veya ilk push sırasında kullanıcı adı olarak GitHub kullanıcı adını, şifre olarak PAT’i girerek de kullanabilirsin.
 
-<p style="font-size: 13px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
+<p style="font-size:13px;">Not : Kısacası, PAT güvenli ve modern bir kimlik doğrulama yöntemidir ve GitHub gibi platformlarda şifreyle girişin yerini almıştır.<p/>
 
 
 
