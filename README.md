@@ -218,12 +218,15 @@ git checkout <commit id> -- .
 > `git stash`  :  Git versiyon kontrol sistemi kullanılarak yapılan değişiklikleri geçici olarak kaydetmenizi sağlayan bir özelliktir. Bu, henüz tamamlanmayan bir iş üzerinde çalışırken veya bir dal üzerinde çalışırken aniden başka bir acil işle ilgilenmeniz gerektiğinde özellikle kullanışlıdır.
 
 > `git stash list`  :  Kaydedilen tüm stash'leri listeler.
+> 
 > `stash@{0}`  :  Git stash listesi içerisindeki ilk yani en son eklenen geçici değişiklikler listesindeki kaydedilmiş çalışma dizininin (working directory) saklandığı referans adıdır.
 
 > `git stash apply`  :  En son kaydedilen stash'i geri yükler.
+> 
 > `git stash apply stash@{n}`  :  Belirtilen numaralı stash'i geri yükler.
 
 > `git stash drop`  :  En son kaydedilen stash'i siler.
+> 
 > `git stash drop stash@{n}`  :  Belirtilen numaralı stash'i siler.
 
 > `git stash pop`  :  Komutu, en son kaydedilen stash girdisini alır ve bu değişiklikleri uygular (apply) ve stash havuzundan (stash pool) kaldırır. Yani, pop işlemi stash havuzundan en son eklenen stash girdisini çıkarır ve çalışma dizinindeki değişiklikleri bu girdiye göre günceller.
