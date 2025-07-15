@@ -6,27 +6,22 @@
 
 ---
 
-<p style="font-size: 13px; text-align: right; font-weight: bold; font-style: italic;
+<p style="font-size: 12px; text-align: right; font-weight: bold; font-style: italic;
 ">Güncelleme : 07/2025<p/>
 
 ##### Bu proje kapsamındaki türkçe kaynak `git-commands.pdf` dosyası aşağıdaki koşullarda kullanıma sunulmuştur:
 
 #### Lisans: Creative Commons Zero v1.0 Universal (CC0 1.0)
 
-1. Kopyalayabilir, değiştirebilir, dağıtabilir ve kullanabilirsiniz.
-   *(You can copy, modify, distribute, and use the file)*
+1. Kopyalayabilir, değiştirebilir, dağıtabilir ve kullanabilirsiniz. *(You can copy, modify, distribute, and use the file)*
 
-2. Ticari amaçlar için kullanabilirsiniz.  
-   *(You may use it for commercial purposes)*
+2. Ticari amaçlar için kullanabilirsiniz. *(You may use it for commercial purposes)*
 
-3. İzin almadan özgürce kullanabilirsiniz.
-   *(You may use it freely without asking for permission)*
+3. İzin almadan özgürce kullanabilirsiniz. *(You may use it freely without asking for permission)*
 
-4. Atıf yapmanız gerekmez.
-   *(Attribution is not required)*
+4. Atıf yapmanız gerekmez. *(Attribution is not required)*
 
-5. Herhangi bir sınırlama veya kısıtlama yoktur.
-   *(There are no limitations or restrictions)*
+5. Herhangi bir sınırlama veya kısıtlama yoktur. *(There are no limitations or restrictions)*
 ---
 
 
